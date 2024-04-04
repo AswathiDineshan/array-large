@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Largest Number of An Array</title>
+    </head>
+<body>
+    <div id="large">
+        
+    </div>
+</body>
+<script>function LargestElement(arr) { 
+	if (arr.length === 0) { 
+		console.log("Array is empty"); 
+	} 
+
+	return Math.max.apply(null, arr); 
+} 
+const arr = [22, 65, 1, 39]; 
+console.log("Largest in given array is " + LargestElement(arr));
+
+</script>
+</html>
